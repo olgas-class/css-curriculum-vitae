@@ -1,3 +1,47 @@
-body {
-    background-color: aquamarine;
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html {
+    font-size: 16px;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: #d6d6d6;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cf8b05;
+}
+
+/* MAIN */
+h2 {
+    color: #cf8b05;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Item block */
+.item h3 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.item p {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    border-top: 2px solid #cf8b05;
+    padding-top: 10px;
 }
